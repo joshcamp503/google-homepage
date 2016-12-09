@@ -1,0 +1,121 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arimo', sans-serif;
+}
+
+nav {
+	float: right;
+	text-align: right;
+	width: 33%;
+	margin: 1% 2%;
+}
+
+nav a {
+	margin: 0 2%;
+	font-size: .8em;
+	color: #444;
+}
+
+nav button {
+	background-color: #3369e8;
+	color: white;
+	font-weight: bold;
+	border: none; 
+	border-radius: 5px;
+	padding: 8px 12px;
+}
+
+
+#container {
+	padding: 15% 0;
+	width: 100%;
+}
+
+.containerItem {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	vertical-align: middle;
+}
+
+#searchBar {
+	margin: 2% 0;
+}
+
+#searchBar form {
+	width: 40%;
+}
+
+#searchBar form input {
+	padding: 2% 1%;
+	width: 100%;
+	border: solid 1px #DDD;
+	border-radius: none;
+}
+
+#searchBar form input:hover {
+	border-color: #AAA;
+}
+
+#searchBar form input:active {
+	border-color: #00A;
+}
+
+button {
+	font-size: .75em;
+	font-weight: bold;
+	color: #777;
+	background-color: #EEE;
+	border: none;
+	padding: 1%;
+	margin: 1%;
+}
+
+button:hover {
+	border: 1px solid #AAA;
+	color: black;
+}
+
+#footer {
+   position:absolute;
+   bottom: 0;
+   width:100%;
+   background:#EEE
+   border-top: 1px;
+   border-top-style: solid;
+   border-top-width: 1px;
+   border-color: #CCC;
+}
+
+.footer a {
+	margin: 2%;
+	font-size: 13px;
+	color: #555;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#footerGroup1 {
+	text-align:left;
+	vertical-align: :middle;
+	display: inline-block;
+	float: left;
+	width: 48%;
+	padding: 10px 0 10px 1%;
+}
+
+#footerGroup2 {
+	text-align:right;
+	vertical-align: middle;
+	display: inline-block;
+	float: right;
+	width: 48%;
+	padding: 10px 1% 10px 0;
+}
